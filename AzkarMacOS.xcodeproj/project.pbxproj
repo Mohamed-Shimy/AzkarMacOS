@@ -7,17 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D93C24C12606081C00543510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93C24982606081C00543510 /* Assets.xcassets */; };
+		D93C24C22606081C00543510 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C249A2606081C00543510 /* NavigationHeader.swift */; };
+		D93C24C32606081C00543510 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C249B2606081C00543510 /* BackButton.swift */; };
+		D93C24C52606081C00543510 /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C249E2606081C00543510 /* FavoritesStore.swift */; };
+		D93C24C62606081C00543510 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C249F2606081C00543510 /* Loader.swift */; };
+		D93C24C72606081C00543510 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A02606081C00543510 /* Store.swift */; };
+		D93C24C82606081C00543510 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A12606081C00543510 /* PersistenceController.swift */; };
+		D93C24C92606081C00543510 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A32606081C00543510 /* SettingsView.swift */; };
+		D93C24CA2606081C00543510 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A42606081C00543510 /* FavoriteView.swift */; };
+		D93C24CB2606081C00543510 /* AzkarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A52606081C00543510 /* AzkarContentView.swift */; };
+		D93C24CC2606081C00543510 /* AzkarSubSectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A62606081C00543510 /* AzkarSubSectionsView.swift */; };
+		D93C24CD2606081C00543510 /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A72606081C00543510 /* DefaultView.swift */; };
+		D93C24CE2606081C00543510 /* AzkarSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24A82606081C00543510 /* AzkarSectionView.swift */; };
+		D93C24CF2606081C00543510 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24AA2606081C00543510 /* Int.swift */; };
+		D93C24D02606081C00543510 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24AB2606081C00543510 /* Color.swift */; };
+		D93C24D12606081C00543510 /* FavoritesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D93C24AD2606081C00543510 /* FavoritesModel.xcdatamodeld */; };
+		D93C24D22606081C00543510 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B02606081C00543510 /* 6.json */; };
+		D93C24D32606081C00543510 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B12606081C00543510 /* 7.json */; };
+		D93C24D42606081C00543510 /* 0.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B22606081C00543510 /* 0.json */; };
+		D93C24D52606081C00543510 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B32606081C00543510 /* 1.json */; };
+		D93C24D62606081C00543510 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B42606081C00543510 /* 2.json */; };
+		D93C24D72606081C00543510 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B52606081C00543510 /* 3.json */; };
+		D93C24D82606081C00543510 /* 8.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B62606081C00543510 /* 8.json */; };
+		D93C24D92606081D00543510 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B72606081C00543510 /* 4.json */; };
+		D93C24DA2606081D00543510 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B82606081C00543510 /* 5.json */; };
+		D93C24DB2606081D00543510 /* Sections.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24B92606081C00543510 /* Sections.json */; };
+		D93C24DC2606081D00543510 /* SubSections.json in Resources */ = {isa = PBXBuildFile; fileRef = D93C24BA2606081C00543510 /* SubSections.json */; };
+		D93C24DE2606081D00543510 /* Zikr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24BD2606081C00543510 /* Zikr.swift */; };
+		D93C24E02606081D00543510 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24BF2606081C00543510 /* Section.swift */; };
+		D93C24E12606081D00543510 /* SubSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24C02606081C00543510 /* SubSection.swift */; };
+		D93C24EA26060C9200543510 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C24E926060C9200543510 /* AboutView.swift */; };
 		D9DC640926015B6D0089AE38 /* AzkarMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC640826015B6D0089AE38 /* AzkarMacOSApp.swift */; };
-		D9DC640B26015B6D0089AE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC640A26015B6D0089AE38 /* ContentView.swift */; };
-		D9DC640D26015B730089AE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC640C26015B730089AE38 /* Assets.xcassets */; };
 		D9DC641026015B730089AE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC640F26015B730089AE38 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9DC640526015B6D0089AE38 /* AzkarMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzkarMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93C24982606081C00543510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93C249A2606081C00543510 /* NavigationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
+		D93C249B2606081C00543510 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		D93C249E2606081C00543510 /* FavoritesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+		D93C249F2606081C00543510 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		D93C24A02606081C00543510 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D93C24A12606081C00543510 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D93C24A32606081C00543510 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D93C24A42606081C00543510 /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		D93C24A52606081C00543510 /* AzkarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarContentView.swift; sourceTree = "<group>"; };
+		D93C24A62606081C00543510 /* AzkarSubSectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarSubSectionsView.swift; sourceTree = "<group>"; };
+		D93C24A72606081C00543510 /* DefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		D93C24A82606081C00543510 /* AzkarSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarSectionView.swift; sourceTree = "<group>"; };
+		D93C24AA2606081C00543510 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		D93C24AB2606081C00543510 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D93C24AE2606081C00543510 /* FavoritesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoritesModel.xcdatamodel; sourceTree = "<group>"; };
+		D93C24B02606081C00543510 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		D93C24B12606081C00543510 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
+		D93C24B22606081C00543510 /* 0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 0.json; sourceTree = "<group>"; };
+		D93C24B32606081C00543510 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		D93C24B42606081C00543510 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		D93C24B52606081C00543510 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		D93C24B62606081C00543510 /* 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8.json; sourceTree = "<group>"; };
+		D93C24B72606081C00543510 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		D93C24B82606081C00543510 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		D93C24B92606081C00543510 /* Sections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sections.json; sourceTree = "<group>"; };
+		D93C24BA2606081C00543510 /* SubSections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SubSections.json; sourceTree = "<group>"; };
+		D93C24BD2606081C00543510 /* Zikr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zikr.swift; sourceTree = "<group>"; };
+		D93C24BF2606081C00543510 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D93C24C02606081C00543510 /* SubSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubSection.swift; sourceTree = "<group>"; };
+		D93C24E926060C9200543510 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D9DC640526015B6D0089AE38 /* Azkar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azkar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DC640826015B6D0089AE38 /* AzkarMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarMacOSApp.swift; sourceTree = "<group>"; };
-		D9DC640A26015B6D0089AE38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D9DC640C26015B730089AE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DC640F26015B730089AE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9DC641126015B730089AE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DC641226015B730089AE38 /* AzkarMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzkarMacOS.entitlements; sourceTree = "<group>"; };
@@ -34,6 +92,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D93C24992606081C00543510 /* Custome Views */ = {
+			isa = PBXGroup;
+			children = (
+				D93C249A2606081C00543510 /* NavigationHeader.swift */,
+				D93C249B2606081C00543510 /* BackButton.swift */,
+			);
+			path = "Custome Views";
+			sourceTree = "<group>";
+		};
+		D93C249C2606081C00543510 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC640826015B6D0089AE38 /* AzkarMacOSApp.swift */,
+				D93C249E2606081C00543510 /* FavoritesStore.swift */,
+				D93C249F2606081C00543510 /* Loader.swift */,
+				D93C24A02606081C00543510 /* Store.swift */,
+				D93C24A12606081C00543510 /* PersistenceController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D93C24A22606081C00543510 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D93C24E926060C9200543510 /* AboutView.swift */,
+				D93C24A32606081C00543510 /* SettingsView.swift */,
+				D93C24A42606081C00543510 /* FavoriteView.swift */,
+				D93C24A52606081C00543510 /* AzkarContentView.swift */,
+				D93C24A62606081C00543510 /* AzkarSubSectionsView.swift */,
+				D93C24A72606081C00543510 /* DefaultView.swift */,
+				D93C24A82606081C00543510 /* AzkarSectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D93C24A92606081C00543510 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D93C24AA2606081C00543510 /* Int.swift */,
+				D93C24AB2606081C00543510 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D93C24AC2606081C00543510 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				D93C24AD2606081C00543510 /* FavoritesModel.xcdatamodeld */,
+				D93C24AF2606081C00543510 /* Content */,
+				D93C24B92606081C00543510 /* Sections.json */,
+				D93C24BA2606081C00543510 /* SubSections.json */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		D93C24AF2606081C00543510 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D93C24B02606081C00543510 /* 6.json */,
+				D93C24B12606081C00543510 /* 7.json */,
+				D93C24B22606081C00543510 /* 0.json */,
+				D93C24B32606081C00543510 /* 1.json */,
+				D93C24B42606081C00543510 /* 2.json */,
+				D93C24B52606081C00543510 /* 3.json */,
+				D93C24B62606081C00543510 /* 8.json */,
+				D93C24B72606081C00543510 /* 4.json */,
+				D93C24B82606081C00543510 /* 5.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		D93C24BB2606081C00543510 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D93C24BD2606081C00543510 /* Zikr.swift */,
+				D93C24BF2606081C00543510 /* Section.swift */,
+				D93C24C02606081C00543510 /* SubSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D9DC63FC26015B6D0089AE38 = {
 			isa = PBXGroup;
 			children = (
@@ -45,7 +184,7 @@
 		D9DC640626015B6D0089AE38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9DC640526015B6D0089AE38 /* AzkarMacOS.app */,
+				D9DC640526015B6D0089AE38 /* Azkar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +192,13 @@
 		D9DC640726015B6D0089AE38 /* AzkarMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				D9DC640826015B6D0089AE38 /* AzkarMacOSApp.swift */,
-				D9DC640A26015B6D0089AE38 /* ContentView.swift */,
-				D9DC640C26015B730089AE38 /* Assets.xcassets */,
+				D93C24982606081C00543510 /* Assets.xcassets */,
+				D93C249C2606081C00543510 /* Core */,
+				D93C24992606081C00543510 /* Custome Views */,
+				D93C24AC2606081C00543510 /* Date */,
+				D93C24A92606081C00543510 /* Extensions */,
+				D93C24BB2606081C00543510 /* Models */,
+				D93C24A22606081C00543510 /* Views */,
 				D9DC641126015B730089AE38 /* Info.plist */,
 				D9DC641226015B730089AE38 /* AzkarMacOS.entitlements */,
 				D9DC640E26015B730089AE38 /* Preview Content */,
@@ -88,7 +231,7 @@
 			);
 			name = AzkarMacOS;
 			productName = AzkarMacOS;
-			productReference = D9DC640526015B6D0089AE38 /* AzkarMacOS.app */;
+			productReference = D9DC640526015B6D0089AE38 /* Azkar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +242,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Mohamed Shemy";
 				TargetAttributes = {
 					D9DC640426015B6D0089AE38 = {
 						CreatedOnToolsVersion = 12.3;
@@ -128,8 +272,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93C24DA2606081D00543510 /* 5.json in Resources */,
+				D93C24D92606081D00543510 /* 4.json in Resources */,
+				D93C24D42606081C00543510 /* 0.json in Resources */,
+				D93C24D72606081C00543510 /* 3.json in Resources */,
+				D93C24DC2606081D00543510 /* SubSections.json in Resources */,
+				D93C24D52606081C00543510 /* 1.json in Resources */,
+				D93C24D22606081C00543510 /* 6.json in Resources */,
+				D93C24D32606081C00543510 /* 7.json in Resources */,
+				D93C24D62606081C00543510 /* 2.json in Resources */,
+				D93C24C12606081C00543510 /* Assets.xcassets in Resources */,
+				D93C24DB2606081D00543510 /* Sections.json in Resources */,
 				D9DC641026015B730089AE38 /* Preview Assets.xcassets in Resources */,
-				D9DC640D26015B730089AE38 /* Assets.xcassets in Resources */,
+				D93C24D82606081C00543510 /* 8.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +295,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DC640B26015B6D0089AE38 /* ContentView.swift in Sources */,
+				D93C24C72606081C00543510 /* Store.swift in Sources */,
+				D93C24DE2606081D00543510 /* Zikr.swift in Sources */,
+				D93C24E02606081D00543510 /* Section.swift in Sources */,
+				D93C24CB2606081C00543510 /* AzkarContentView.swift in Sources */,
+				D93C24EA26060C9200543510 /* AboutView.swift in Sources */,
+				D93C24C22606081C00543510 /* NavigationHeader.swift in Sources */,
+				D93C24E12606081D00543510 /* SubSection.swift in Sources */,
+				D93C24C92606081C00543510 /* SettingsView.swift in Sources */,
+				D93C24D12606081C00543510 /* FavoritesModel.xcdatamodeld in Sources */,
+				D93C24D02606081C00543510 /* Color.swift in Sources */,
+				D93C24C62606081C00543510 /* Loader.swift in Sources */,
 				D9DC640926015B6D0089AE38 /* AzkarMacOSApp.swift in Sources */,
+				D93C24C52606081C00543510 /* FavoritesStore.swift in Sources */,
+				D93C24C32606081C00543510 /* BackButton.swift in Sources */,
+				D93C24CA2606081C00543510 /* FavoriteView.swift in Sources */,
+				D93C24CE2606081C00543510 /* AzkarSectionView.swift in Sources */,
+				D93C24C82606081C00543510 /* PersistenceController.swift in Sources */,
+				D93C24CF2606081C00543510 /* Int.swift in Sources */,
+				D93C24CD2606081C00543510 /* DefaultView.swift in Sources */,
+				D93C24CC2606081C00543510 /* AzkarSubSectionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +454,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarMacOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.Azkar;
+				PRODUCT_NAME = Azkar;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -305,8 +478,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarMacOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.Azkar;
+				PRODUCT_NAME = Azkar;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -333,6 +506,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D93C24AD2606081C00543510 /* FavoritesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D93C24AE2606081C00543510 /* FavoritesModel.xcdatamodel */,
+			);
+			currentVersion = D93C24AE2606081C00543510 /* FavoritesModel.xcdatamodel */;
+			path = FavoritesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D9DC63FD26015B6D0089AE38 /* Project object */;
 }
